@@ -2,7 +2,7 @@
 
 require_once('lib/ImageResizer.php');
 
-$file='4.jpg';
+$file='4.jpg'; /* test */
 
 $img=new ImageResizer($file);
 $img->path_file="./files/images/thumbs/";
